@@ -75,7 +75,37 @@ for line in result:
 
 This example initializes the OCR model and processes an image, extracting the recognized text. Feel free to experiment with different images and explore the capabilities of PaddleOCR.
 
-## 2.3 Additional Resources
+## 2.3 Working with Different Languages
+
+PaddleOCR supports multiple languages. You can specify the language when initializing the OCR object. For example, to work with English text:
+
+```python
+ocr = paddleocr.OCR(lang='en')
+```
+Explore the [list of supported languages](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.0/doc/doc_en/inference.md#v20-supported-languages) in PaddleOCR documentation.
+
+## 2.4 Configuring OCR Models
+
+You can configure the OCR model's behavior by passing parameters during initialization. For example, to use a specific pre-trained model:
+
+```python
+ocr = paddleocr.OCR(use_angle_cls=True)
+```
+
+Experiment with different configurations based on your specific use case and requirements.
+
+## 2.5 Batch Processing
+
+PaddleOCR supports batch processing for efficiency. Instead of processing images one by one, you can process multiple images simultaneously:
+
+```python
+images = ['path/to/image1.jpg', 'path/to/image2.jpg', 'path/to/image3.jpg']
+results = ocr.ocr(images)
+```
+
+This can significantly improve processing speed, especially when dealing with a large number of images.
+
+# 2.6 Additional Resources
 
 [PaddleOCR GitHub](https://github.com/PaddlePaddle/PaddleOCR) Repository: Explore the official repository for the latest updates, documentation, and examples.
 [PaddleOCR Models](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_server_v2.0_det_infer.tar): Download pre-trained models for various OCR tasks.

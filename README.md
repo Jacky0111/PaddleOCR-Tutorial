@@ -3,17 +3,14 @@ Explore the world of Optical Character Recognition (OCR) with this beginner-frie
 
 ## Table of Contents
 
-1. [Introduction to OCR](#introduction-to-ocr)
-2. [Getting Started with PaddleOCR](#getting-started-with-paddleocr)
-3. [Understanding PaddleOCR Components](#understanding-paddleocr-components)
-4. [Exploring Pre-trained Models in PaddleOCR](#exploring-pre-trained-models-in-paddleocr)
-5. [Hands-on Projects for Beginners](#hands-on-projects-for-beginners)
-6. [Text Parsing and Extracting Information](#text-parsing-and-extracting-information)
-7. [Practical Tips for Better OCR Results](#practical-tips-for-better-ocr-results)
-8. [Integration with PaddlePaddle Ecosystem](#integration-with-paddlepaddle-ecosystem)
-9. [Real-world Applications for Beginners](#real-world-applications-for-beginners)
-10. [Resources for Learning and Community Support](#resources-for-learning-and-community-support)
-11. [Conclusion and Next Steps](#conclusion-and-next-steps)
+1. [Introduction to OCR](#1-introduction-to-ocr)
+2. [Getting Started with PaddleOCR](#2-getting-started-with-paddleocr)
+3. [Understanding PaddleOCR Components](#3-understanding-paddleocr-components)
+4. [Exploring Pre-trained Models in PaddleOCR](#4-exploring-pre-trained-models-in-paddleocr)
+5. [Hands-on Projects for Beginners](#5-hands-on-projects-for-beginners)
+6. [Conclusion](#6-conclusion)
+7. [Next Steps](#7-next-steps)
+8. [Acknowledgments](#9-acknowledgments)
 
 # 1. Introduction to OCR
 
@@ -161,7 +158,7 @@ In this example, we assume a custom function parse_text that extracts structured
 
 Now that we've covered the basics of text detection, recognition, and parsing, let's move on to exploring pre-trained models in the next section.
 
-# 4. Exploring Pre-trained Models in PaddleOC
+# 4. Exploring Pre-trained Models in PaddleOCR
 
 PaddleOCR provides a variety of pre-trained models for different OCR tasks, including text detection, recognition, and parsing. In this section, we will explore how to use and evaluate these pre-trained models.
 
